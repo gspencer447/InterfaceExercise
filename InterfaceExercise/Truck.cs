@@ -17,8 +17,8 @@ namespace InterfaceExercise
         public int NumberOfWindows { get; set; }
         public bool HasSunroof { get; set; }
 
-    public void PrintTruckInfo()
-    {
+        public void PrintTruckInfo()
+        {
             Console.WriteLine("Truck information:");
             Console.WriteLine($"Bed Size: {BedSize}");
             Console.WriteLine($"Is Offroad: {IsOffroad}");
@@ -30,7 +30,7 @@ namespace InterfaceExercise
             Console.WriteLine("Company information:");
             Console.WriteLine($"Business Name: {BusinessName}");
             Console.WriteLine($"Years in Operation: {YearsInOperation}");
-    }
+        }
 
     }
 
